@@ -4,10 +4,11 @@ directions:
 
 1. create user postgreSQL with privileges
 2. create database in postgreSQL
-3. in main.py file insert db_name, db_user, db_password
-4. create an account in timezonedb
-5. in api_key.py insert api key from timezonedb
-6. in terminal enter cmd : python main.py
+3. create a constants.py file (follow constants_example.py)
+4. in constants.py insert db_name, db_user, db_password
+5. create an account in timezonedb
+6. in constants.py insert api key from timezonedb
+7. in terminal enter cmd : python main.py
 
 Project Overview:
 
